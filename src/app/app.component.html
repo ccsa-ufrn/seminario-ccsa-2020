@@ -1,0 +1,28 @@
+<!-- OVERLAY -->
+<div class="backdrop"></div>
+<div (click)="_handleOverlayClick()" class="overlay"></div>
+<nav class="menu-mobile">
+  <a href="http://sigeva.ccsa.ufrn.br/login">Entrar</a>
+  <a (click)="goToFromMenu('s-inscription')" (keypress.enter)="goToFromMenu('s-inscription')">Inscrição</a>
+  <!--<a>Programação</a>-->
+  <!-- <a (click)="goToFromMenu('s-comment')" (keypress.enter)="goToFromMenu('s-comment')">Contato</a> -->
+</nav>
+<!-- END - OVERLAY -->
+
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-right">
+        <a class="open-menu-mobile" style="float:left; font-size: 18px; padding-top: 6px;" (click)="toggleMenu()" (keypress.enter)="toggleMenu()">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+
+        <a style="float: right; display: block; cursor: pointer; padding-left: 10px;" class="login-container">
+          <a class="login" tabindex="0" href="http://sigeva.ccsa.ufrn.br/login">ENTRAR</a>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<router-outlet></router-outlet>
