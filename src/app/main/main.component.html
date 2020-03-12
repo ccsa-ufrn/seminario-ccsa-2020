@@ -469,7 +469,7 @@
       <ul>
         <li *ngFor="let n of _allNews">
           <h1>{{ n.data.title }}</h1>
-          <p [innerHTML]="n.data.text"></p>
+          <p style="white-space: pre-wrap" [innerHTML]="n.data.text"></p>
         </li>
       </ul>
       <!-- <p>Em Breve...</p> -->
