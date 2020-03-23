@@ -81,7 +81,7 @@ export class MainComponent implements OnInit {
         this.modal03 = false;
         this.modal02 = false;
         this.modal05 = false;
-        this.modalPrazo = false;
+        this.modalPrazo = true;
         this.modalEmBreve = false;
 
         /** REGISTER FORM */
