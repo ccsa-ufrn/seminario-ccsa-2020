@@ -23,7 +23,7 @@
     "bootstrap": "4.0.0-beta.2",
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ng": "0.0.0-rc6",
     "ng2-page-scroll": "^4.0.0-beta.4",
     "querystringify": "^2.1.1",
